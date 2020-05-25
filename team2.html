@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vidisha</title>
+    <link rel="icon" type="image/png" href="img/V1logo.png" />
+    <link rel="stylesheet" href="css/components.css">
+    <link rel="stylesheet" href="css/icons.css">
+    <link rel="stylesheet" href="css/responsee.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/template-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,700,900&amp;subset=latin-ext" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+
+    <!--<link rel="stylesheet" href="css/lightcase.css">
+     CUSTOM STYLE -->
+    <style>
+    .hit{
+
+      font-color:White;
+      text-color:White;
+      /* background-color:rgba(17,17,17,0.5); */
+    font-family: 'Raleway', sans-serif;
+      border-radius: 0.7rem;
+}
+
+@media only screen and (max-width:900px)
+{
+  .pos{
+    margin-top:200px;
+
+  }
+}
+
+
+    }
+
+      .bg-fades{
+        background-color: rgb(204, 255, 255);
+      }
+      .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        width: 300px;
+        float: left;
+        margin: 1.5%;
+      }
+      .piltab{
+        padding: 20px 20px;
+      }
+      .card-container{
+          position: relative;
+          margin-top:-50px;
+
+      }
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+      }
+
+      .container {
+        padding: 20px 10px;
+      }
+    </style>
+    <link rel="stylesheet" href="css/template-style.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,700,900&amp;subset=latin-ext" rel="stylesheet">
+    <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui.min.js"></script>
+  </head>
+
+  <body class="size-1280">
+    <!-- HEADER -->
+    <header role="banner" class="position-absolute">
+      <!-- Top Navigation -->
+      <nav class="background-transparent background-primary-dott full-width sticky">
+        <div class="top-nav">
+          <!-- mobile version logo -->
+          <div class="logo hide-l hide-xl hide-xxl">
+             <a href="index.html" class="logo">
+              <!-- Logo White Version -->
+              <img class="logo-white" src="img/V1logo.png" alt="">
+              <!-- Logo Dark Version -->
+              <img class="logo-dark" src="img/V2logo.png" alt="">
+            </a>
+          </div>
+          <p class="nav-text"></p>
+
+          <!-- left menu items -->
+          <div class="top-nav left-menu" >
+             <ul class="right top-ul chevron">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="services.html">Our Sponsors</a></li>
+             </ul>
+          </div>
+
+          <!-- logo -->
+          <ul class="logo-menu">
+            <a href="index.html" class="logo">
+              <!-- Logo White Version -->
+              <img class="logo-white" src="img/V1logo.png" alt="">
+              <!-- Logo Dark Version -->
+              <img class="logo-dark" src="img/V2logo.png" alt="">
+            </a>
+          </ul>
+
+          <!-- right menu items -->
+          <div class="top-nav right-menu">
+             <ul class="top-ul chevron">
+                <li><a href="team2.html">Our Team</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+             </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main role="main">
+      <article>
+        <!-- Header -->
+        <header class="section pos background-image text-center" style="background-image:url(img/abstract5.jpg)">
+          <h1 class="animated-element animated container-fluid fadeInUp delay-1s hit text-extra-thin text-white  text-s-size-30 text-m-size-40 text-size-80 text-line-height-1 margin-bottom-30 margin-top-130" style="width:6em; height:1em;">
+
+            Our Team
+          </h1>
+
+          <!-- white full width arrow object -->
+          <img class="arrow-object animated fadeInUp delay-2s " src="img/arrow-object-white.svg" alt="">
+        </header>
+
+        <ul class="nav list-inline  nav-pills mt-4 pl-4" id="pills-tab" role="tablist">
+          <li class="nav-item center list-inline-item ">
+            <a class="nav-link active btn btn-outline-dark " id="pills-home-tab" data-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">Team 2019-20</a>
+          </li>
+          <li class="nav-item center list-inline-item ">
+            <a class="nav-link btn btn-outline-dark" id="pills-profile-tab b  " data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Team 2018-19</a>
+          </li>
+
+        </ul>
+        <div class="tab-content bg-fades" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+
+
+          <!-- section-1 -->
+
+          <section class="section background-white" style="">
+
+                 <div class="card-container" style="">
+
+                 <div class="card" data-aos="fade-up-right"  data-aos-duration="800">
+                   <img src="img/Team2/pratiksha31.jpg" alt="Avatar" class="abc" style="width:100%; height: 320px; ">
+                   <div class="container">
+                     <b>PRATIKSHA SALVEKAR</b>
+                     <p>General Secretary</p>
+                   </div>
+                   </div>
+
+
+
+                 <div class="card" data-aos="fade-up"  data-aos-duration="800">
+                   <img src="img/Team2/shub.jpeg" alt="Avatar" class="abc" style="width:100%; height:320px">
+                   <div class="container">
+                     <b>SHUBHAM SHELAR</b>
+                     <p>Joint General Secretary</p>
+                   </div>
+
+               </div>
+
+                 <div class="card" data-aos="fade-up"  data-aos-duration="800">
+                   <img src="img/Team2/sidhhant.jpg" alt="Avatar" class="abc" style="width:100%; height:320px">
+                   <div class="container">
+                     <b>SIDDHANT MHATRE</b>
+                     <p>Joint General Secretary</p>
+                   </div>
+                 </div>
+
+                 <div class="card" data-aos="fade-up-left"  data-aos-duration="800">
+                   <img src="img/Team2/nana.jpg" alt="Avatar" class="abc" style="width:100%; height:320px">
+                   <div class="container">
+                     <b>VISHAL KOKARE</b>
+                     <p>Joint General Secretary</p>
+                   </div>
+                 </div>
+                 <div class="card" data-aos="fade-up-right"  data-aos-duration="800">
+                   <img src="img/Team2/jayesh.jpg" alt="Avatar" class="abc" style="width:100%; height:320px">
+                   <div class="container">
+                     <b>JAYESH PATIL</b>
+                     <p>Joint General Secretary</p>
+                   </div>
+                 </div>
+                 <div class="card" data-aos="fade-up"  data-aos-duration="800">
+                   <img src="img//Team2/tejas.jpeg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                   <div class="container">
+                     <b>TEJAS PATIL</b>
+                     <p>Tressurer</p>
+                   </div>
+                 </div>
+                 <div class="card" data-aos="fade-up"  data-aos-duration="800">
+                   <img src="img/Team2/nikhil.jpg" alt="Avatar" class="abc" style="width:100%; height:320px">
+                   <div class="container">
+                     <b>NIKHIL PAWAR</b>
+                     <p>Joint Tressurer</p>
+                   </div>
+                 </div>
+                 <div class="card" data-aos="fade-up-left"  data-aos-duration="800">
+                   <img src="img/Team2/pratiksha.jpeg" alt="Avatar" class="abc" style="width:100%; height:320px">
+                   <div class="container">
+                     <b>PRATIKSHA THUBE</b>
+                     <p>Ladies Representative</p>
+                   </div>
+                 </div>
+                 <div class="card" data-aos="fade-up-right"  data-aos-duration="800">
+                   <img src="img/Team2/pratiksha2.jpg" alt="Avatar" class="abc" style="width:100%; height:320px">
+                   <div class="container">
+                     <b>PRATIKSHA PATIL</b>
+                     <p>Joint Ladies Representative</p>
+                   </div>
+                 </div>
+                 <div class="card"data-aos="fade-up"  data-aos-duration="800">
+                   <img src="img/Team2/nikita.jpg" alt="Avatar" class="abc" style="width:100%; height:320px">
+                   <div class="container">
+                     <b>NIKITA PATIL</b>
+                     <p>Cultural Secretary</p>
+                   </div>
+                 </div>
+                 <div class="card"data-aos="fade-up"  data-aos-duration="800">
+                   <img src="img/Team2/daksh.jpg" alt="Avatar" class="abc" style="width:100%; height:320px">
+                   <div class="container">
+                     <b>DAKSH MANN</b>
+                     <p>Joint Cultural Secretary</p>
+                   </div>
+                 </div>
+                 <div class="card" data-aos="fade-up-left"  data-aos-duration="800">
+                   <img src="img/Team2/gaurav.jpg" alt="Avatar" class="abc" style="width:100%; height:320px">
+                   <div class="container">
+                     <b>GAURAV BADANE</b>
+                     <p>Joint Cultural Secretary</p>
+                   </div>
+                 </div>
+                 <div class="card" data-aos="fade-up-right"  data-aos-duration="800">
+                   <img src="img/Team2/aditya.jpg" alt="Avatar" class="abc" style="width:100%; height:320px">
+                   <div class="container">
+                     <b>ADITYA PAKHARE</b>
+                     <p>Sports Secretary</p>
+                   </div>
+                 </div>
+                 <div class="card" data-aos="fade-up"  data-aos-duration="800">
+                   <img src="img//Team2/akhil.jpg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                   <div class="container">
+                     <b>AKHIL THAKUR</b>
+                     <p>Joint Sports Secretary</p>
+                   </div>
+                 </div>
+                 <div class="card" data-aos="fade-up"  data-aos-duration="800">
+                   <img src="img//Team2/supriya.jpg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                   <div class="container">
+                     <b>SUPRIYA JAPE</b>
+                     <p>Joint Sports Secretary</p>
+                   </div>
+                 </div>
+                 <div class="card" data-aos="fade-up-left"  data-aos-duration="800">
+                   <img src="img//Team2/gururaj.jpeg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                   <div class="container">
+                     <b>HUDGI GURURAJ</b>
+                     <p>Technical Secretary</p>
+                   </div>
+                 </div>
+                 <div class="card" data-aos="fade-up-right"  data-aos-duration="800">
+                   <img src="img//Team2/keshav.jpg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                   <div class="container">
+                     <b>KESHAV MISHRA</b>
+                     <p>Joint Technical Secretary</p>
+                   </div>
+                 </div>
+                 <div class="card" data-aos="fade-up"  data-aos-duration="800">
+                   <img src="img//Team2/tushar.jpg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                   <div class="container">
+                     <b>TUSHAR BABRE</b>
+                     <p>Joint Technical Secretary</p>
+                   </div>
+                 </div>
+                 <div class="card" data-aos="fade-up" data-aos="fade-up-left"  data-aos-duration="800">
+                   <img src="img//Team2/shrusti.jpg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                   <div class="container">
+                     <b>SRUSHTI THALE</b>
+                     <p>Literary Head</p>
+                   </div>
+                 </div>
+                 <div class="card" data-aos="fade-up-left"  data-aos-duration="800">
+                   <img src="img//Team2/hrishi.jpg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                   <div class="container">
+                     <b>RUSHIKESH KOLPE</b>
+                     <p>Advertisement Head</p>
+                   </div>
+                 </div>
+                 <div class="card" data-aos="fade-up-right"  data-aos-duration="800">
+                   <img src="img//Team/Hrishikesh.jpeg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                   <div class="container">
+                     <b>RACHNA BALMIKI</b>
+                     <p>Joint Advertisement Head</p>
+                   </div>
+                 </div>
+                 <div class="card" data-aos="fade-up"  data-aos-duration="800">
+                   <img src="img//Team2/shajol1.jpg" alt=""class="abc"  style="width:100%;height:320px">
+                   <div class="container">
+                     <b>Shajol Shaji</b>
+                     <p>Promotion Team</p>
+                   </div>
+                 </div>
+                 <div class="card" data-aos="fade-up"  data-aos-duration="800">
+                   <img src="img//Team2/mrunal.jpg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                   <div class="container">
+                     <b>Mrunal Gaikwad</b>
+                     <p>Promotion Team</p>
+                   </div>
+                 </div>
+
+                 <div class="card" data-aos="fade-up-right"  data-aos-duration="800">
+                   <img src="img//Team2/nemade.jpg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                   <div class="container">
+                     <b>Garurav Nemade</b>
+                     <p>Design Team</p>
+                   </div>
+                 </div>
+
+               <div class="card" data-aos="fade-up"  data-aos-duration="800">
+                 <img src="img//Team2/jayesh1.jpeg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                 <div class="container">
+                   <b>Jayesh Patil</b>
+                   <p>Design Team</p>
+                 </div>
+               </div>
+               <div class="card"data-aos="fade-up"  data-aos-duration="800" >
+                 <img src="img//Team2/deven.jpg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                 <div class="container">
+                   <b>Deven Vele</b>
+                   <p>Sponsorship Team</p>
+                 </div>
+               </div>
+               <div class="card" data-aos="fade-up-left"  data-aos-duration="800">
+                 <img src="img//Team2/Suraj.jpg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                 <div class="container">
+                   <b>Suraj Kadamr</b>
+                   <p>Sponsorship Team</p>
+                 </div>
+               </div>
+               <div class="card" data-aos="fade-up-right"  data-aos-duration="800">
+                 <img src="img//Team2/dhirag.jpeg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                 <div class="container">
+                   <b>Dhiraj Sarang</b>
+                   <p>Documentation Team</p>
+                 </div>
+               </div>
+               <div class="card" data-aos="fade-up"  data-aos-duration="800">
+                 <img src="img//Team2/vishal.jpg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                 <div class="container">
+                   <b>Vishal Palaskar</b>
+                   <p>Discipline Team</p>
+                 </div>
+              </div>
+              <div class="card" data-aos="fade-up"  data-aos-duration="800">
+                <img src="img//Team2/rushabh.jpg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                <div class="container">
+                  <b>Rushabh Mhatre</b>
+                  <p>Disciplne Team</p>
+                </div>
+             </div>
+             <div class="card" data-aos="fade-up-left"  data-aos-duration="800">
+               <img src="img//Team2/dighya.jpg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+               <div class="container">
+                 <b>Digvijay Sardesai</b>
+                 <p>Promotion Team</p>
+               </div>
+            </div>
+            <div class="card" data-aos="fade-up-right"  data-aos-duration="800">
+              <img src="img//Team2/yash.jpg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+              <div class="container">
+                <b>Yash Patil</b>
+                <p>Promotion Team</p>
+              </div>
+           </div>
+
+
+
+
+               </div>
+               </section>
+
+
+
+
+
+          </div>
+          <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+
+            <!-- section02 -->
+
+            <section class="section background-white" style="">
+                   <div class="card-container" style="">
+                   <div class="card" data-aos="fade-up-right"  data-aos-duration="800">
+                     <img src="img/Team/Yogesh.jpg" alt="Avatar" class="abc" style="width:100%; height: 320px; ">
+                     <div class="container">
+                       <b>Yogesh Barad</b>
+                       <p>General Secretary</p>
+                     </div>
+                   </div>
+                   <div class="card" data-aos="fade-up"  data-aos-duration="800">
+                     <img src="img/Team/Sumanth.jpg" alt="Avatar" class="abc" style="width:100%; height:320px">
+                     <div class="container">
+                       <b>Sumanth Hegde</b>
+                       <p>Cultural Secretary</p>
+                     </div>
+                   </div>
+                   <div class="card" data-aos="fade-up"  data-aos-duration="800">
+                     <img src="img//Team/Viraj.jpeg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                     <div class="container">
+                       <b>Viraj Nimbalkar</b>
+                       <p>Joint Cultural Secretary</p>
+                     </div>
+                   </div>
+                   <div class="card" data-aos="fade-up-left"  data-aos-duration="800">
+                     <img src="img/Team/Pranali.jpeg" alt="Avatar" class="abc" style="width:100%; height:320px">
+                     <div class="container">
+                       <b>Pranali Gole</b>
+                       <p>Ladies Representative</p>
+                     </div>
+                   </div>
+                   <div class="card" data-aos="fade-up-right"  data-aos-duration="800">
+                     <img src="img/Team/Suraj.jpg" alt="Avatar" class="abc" style="width:100%; height:320px">
+                     <div class="container">
+                       <b>Suraj Kadam</b>
+                       <p>Sports Secretary</p>
+                     </div>
+                   </div>
+                   <div class="card" data-aos="fade-up "  data-aos-duration="800">
+                     <img src="img/Team/Daksh.JPG" alt="Avatar" class="abc" style="width:100%; height:320px">
+                     <div class="container">
+                       <b>Daksh Maan</b>
+                       <p>Joint Sports Secretary</p>
+                     </div>
+                   </div>
+                   <div class="card" data-aos="fade-up "  data-aos-duration="800">
+                     <img src="img/Team/Kiran.jpg" alt="Avatar" class="abc" style="width:100%; height:320px">
+                     <div class="container">
+                       <b>Kiran Kokambe</b>
+                       <p>Technical Secretary</p>
+                     </div>
+                   </div>
+                   <div class="card" data-aos="fade-up-left"  data-aos-duration="800">
+                     <img src="img/Team/Rachana.jpg" alt="Avatar" class="abc" style="width:100%; height:320px">
+                     <div class="container">
+                       <b>Rachana Balmiki</b>
+                       <p>Joint Technical Secretary</p>
+                     </div>
+                   </div>
+                   <div class="card" data-aos="fade-up-right"  data-aos-duration="800">
+                     <img src="img/Team/Kaustubh.jpeg" alt="Avatar" class="abc" style="width:100%; height:320px">
+                     <div class="container">
+                       <b>Kaustab Kulkarni</b>
+                       <p>Literary Head</p>
+                     </div>
+                   </div>
+                   <div class="card" data-aos="fade-up "  data-aos-duration="800">
+                     <img src="img/Team/Sanika.jpg" alt="Avatar" class="abc" style="width:100%; height:320px">
+                     <div class="container">
+                       <b>Sanika Kubal</b>
+                       <p>Advertisement Head</p>
+                     </div>
+                   </div>
+                   <div class="card" data-aos="fade-up "  data-aos-duration="800">
+                     <img src="img//Team/Vaibhav.jpg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                     <div class="container">
+                       <b>Vaibhav Daware</b>
+                       <p>Discipline Head</p>
+                     </div>
+                   </div>
+                   <div class="card" data-aos="fade-up-left"  data-aos-duration="800">
+                     <img src="img//Team/Ratnadeep.jpg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                     <div class="container">
+                       <b>Ratnadeep Deshmukh</b>
+                       <p>Joint Discipline Head</p>
+                     </div>
+                   </div>
+                   <div class="card" data-aos="fade-up-right"  data-aos-duration="800">
+                     <img src="img//Team/Jafar.jpg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                     <div class="container">
+                       <b>Jafar Mapara</b>
+                       <p>Sponsorship Head</p>
+                     </div>
+                   </div>
+                   <div class="card" data-aos="fade-up "  data-aos-duration="800">
+                     <img src="img//Team/Ayyaz.jpeg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                     <div class="container">
+                       <b>Ayyaz Jatkar</b>
+                       <p>Joint Sponsorship Head</p>
+                     </div>
+                   </div>
+                   <div class="card" data-aos="fade-up "  data-aos-duration="800">
+                     <img src="img//Team/Nitin.jpg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                     <div class="container">
+                       <b>Nitin Mishra</b>
+                       <p>Treasurer</p>
+                     </div>
+                   </div>
+                   <div class="card" data-aos="fade-up-left"  data-aos-duration="800">
+                     <img src="img//Team/Shristi.jpeg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                     <div class="container">
+                       <b>Shristi Gupta</b>
+                       <p>Joint Treasurer</p>
+                     </div>
+                   </div>
+                   <div class="card" data-aos="fade-up-right"  data-aos-duration="800">
+                     <img src="img//Team/Aditya.jpeg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                     <div class="container">
+                       <b>Aditya Patil</b>
+                       <p>Online Marketing Head</p>
+                     </div>
+                   </div>
+                   <div class="card" data-aos="fade-up "  data-aos-duration="800">
+                     <img src="img//Team/Hrishikesh.jpeg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                     <div class="container">
+                       <b>Hrishikesh Salunke</b>
+                       <p>Joint Online Marketing Head</p>
+                     </div>
+                   </div>
+                   <div class="card" data-aos="fade-up "  data-aos-duration="800">
+                     <img src="img//Team/Kunal.jpg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                     <div class="container">
+                       <b>Kunal Chandorkar</b>
+                       <p>Joint Online Marketing Head</p>
+                     </div>
+                   </div>
+                   <div class="card" data-aos="fade-up-left"  data-aos-duration="800">
+                     <img src="img//Team/Sameer.jpeg" alt="Avatar"class="abc"  style="width:100%;height:320px">
+                     <div class="container">
+                       <b>Sameer Salve</b>
+                       <p>Documentation Head</p>
+                     </div>
+                   </div>
+                 </div>
+                 </section>
+
+
+
+          </div>
+
+
+
+      </article>
+
+      <hr class="break">
+      <!-- Section 4 -->
+      <section class="section-small-padding background-white text-center">
+        <div class="line">
+          <div class="s-12 m-12 l-3 center">
+            <a href="contact.html" class="s-12 button border-radius background-primary text-size-20 text-white">Contact Us</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+      <footer>
+      <!-- Social -->
+      <div class="background-primary padding text-center">
+        <a href="https://www.facebook.com/vishwaniketan.vidisha/"><i class="icon-facebook_circle text-size-25 text-dark"></i></a>
+        <a href="https://www.instagram.com/vishwaniketan.vidisha/"><i class="icon-instagram_circle text-size-25 text-dark"></i></a>
+         <a href="https://www.youtube.com/channel/UCcGkRF6glWmgMYQe8ViQmag"><i class="icon-dribbble_circle text-size-25 text-dark"></i></a>
+      </div>
+      <!-- Main Footer -->
+      <section class="myfooter background-dark" style="">
+      <div class="text-center" style="padding: 15px 15px;">
+        <p class="assa" style="font-size: 25px; font-weight: 500; color: white; margin-bottom: 5px;">ViDISHA is the cultural fest of Vishwaniketan's iMEET</p>
+        <p style="margin-bottom: 5px;">&copy; Copyright 2019-2020 ViDISHA </p>
+        <p>Developed by : Yash Bhole </p>
+      </div>
+    </footer>
+    <script type="text/javascript" src="js/responsee.js"></script>
+    <script type="text/javascript" src="owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="js/template-scripts.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
